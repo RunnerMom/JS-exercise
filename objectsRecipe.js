@@ -11,9 +11,9 @@ var mole = {
 var salad = {
 	title: "Avocado Tomato salad",
 	serving: 4,
-	ingredients: ["avocados", "grape tomatoes", "red onion", "fresh cilantro", "fresh garlic", "lime juice", "olive oil"]
-};
+	ingredients: {avocados: "4 cups", grapeTomatoes: "2 cups", redOnion: "1 cup", freshCilantro: "4 tablespoons", freshGarlic: "2 teaspoons", limeJuice: "2 tablespoons", oliveOil: "1/4 cup"},
 
+};
 
 // function to print recipe
 
