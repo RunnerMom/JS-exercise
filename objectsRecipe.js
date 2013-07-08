@@ -6,6 +6,7 @@ var mole = {
 	ingredients: ["cinnamon", "cumin", "cocoa"]
 };
 
+// for loop - for var in array not used on arrays. It can create problems
 
 
 var salad = {
@@ -21,7 +22,7 @@ function printRecipe(recipe) {
     console.log("Title:", recipe.title);
 	console.log("Serves:", recipe.serving);
 	console.log("Ingredients:")
-	for (item in recipe.ingredients){
+	for (var item in recipe.ingredients){
 		console.log(recipe.ingredients[item]);
 	}
 }
