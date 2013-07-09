@@ -1,4 +1,5 @@
 //gowri's attempt at Readinglist 
+//also first try Julthon.org
 //http://icyfenix.github.io/javascript-for-python-developers/exercises/objects.htmlfinish
 
 //this code was tested using http://repl.it javascript interpreter
