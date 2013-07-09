@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <title>About Me</title>
+</head>
+<body>
+  <h1>About Me</h1>
+  <div id="picture"></div>
+  <ul>
+    <li>Nickname: <span id="nickname"></span>
+    <li>Favorites:  <span id="favorites"></span>
+    <li>Hometown: <span id="hometown"></span>
+   </ul>
+  
+ </body>
+
+ <script>
+ var pageNode = document.getElementsByTagName('body')[0];
+ pageNode.style.fontFamily="Arial";
+ 
+ var newImg = document.createElement('img');
+ newImg.src = "file:///home/user/src/CASSIE-GOWRI/images.jpeg";
+ document.getElementById('picture').appendChild(newImg);
+ 
+ var nickname = document.getElementById('nickname');
+ nickname.innerHTML="GG";
+ var fave = document.getElementById('favorites');
+ fave.innerHTML="dark chocolate, my kids, peanut butter blizzard from Dairy Queen";
+ var home = document.getElementById('hometown');
+ home.innerHTML = "palo alto, california";
+
+ var listItems = document.getElementsByTagName('li');
+ 	for(var i=0; i< listItems.length; i++){
+ 		listItems[i].className = "listitem";
+ 		listItems[i].style.color = 'red';
+ 	}
+
+
+ </script>
+
+</html>
